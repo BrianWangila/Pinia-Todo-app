@@ -4,7 +4,7 @@
 
 
     <TodoForm />
-    <TodoList />
+    <TodoList :tasks="tasks"/>
   </main>
 </template>
 
@@ -18,6 +18,7 @@
     components: {
       TodoForm,
       TodoList,
-    }
+    },
+
   }
 </script>
